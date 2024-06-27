@@ -13,7 +13,8 @@
 
 
 .masthead__menu,
-.masthead__search {
+.masthead__search, 
+.masthead__cog {
     display: inline-block;
     font-size: 11px;
     padding: 7px 9px;
@@ -32,13 +33,18 @@
 
 
 .masthead__menu:hover,
-.masthead__seach:hover {
+.masthead__seach:hover,
+.masthead__cog:hover {
   background-color: #f7f7f5;
 }
 
 .masthead__actions{
     grid-row: 1;
     grid-column: 3;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 50px;
 
 }
 
