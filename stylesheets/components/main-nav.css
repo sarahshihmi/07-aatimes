@@ -1,1 +1,16 @@
-/* Your code here */
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-nav__text {
+    height: 12px;
+    font-size: 12px;
+    margin: 20px;
+    display:flex;
+    align-items: center;
+
+}
